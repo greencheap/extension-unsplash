@@ -3,7 +3,7 @@
     "type": "greencheap-extension",
     "version": "1.0.0",
     "title": "Unsplash",
-    "description": "GreenCheap package build draft, with this template you can create a legal package",
+    "description": "It is a plugin that allows you to draw images from Unsplash site.",
     "license": "MIT",
     "authors": [
         {
