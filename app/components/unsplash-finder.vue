@@ -26,24 +26,60 @@
                             <button
                                 class="uk-button un-button"
                                 @click.prevent="
-                                    config.filter.count = 30;
+                                    config.filter.count = 20;
                                     loadSearch();
                                 "
-                                :class="{ 'un-button-active': config.filter.count == 30 }"
+                                :class="{ 'un-button-active': config.filter.count == 20 }"
                             >
-                                30
+                                20
                             </button>
                         </li>
                         <li>
                             <button
                                 class="uk-button un-button"
                                 @click.prevent="
-                                    config.filter.count = 60;
+                                    config.filter.count = 40;
                                     loadSearch();
                                 "
-                                :class="{ 'un-button-active': config.filter.count == 60 }"
+                                :class="{ 'un-button-active': config.filter.count == 40 }"
                             >
-                                60
+                                40
+                            </button>
+                        </li>
+                        <li>
+                            <button
+                                class="uk-button un-button"
+                                @click.prevent="
+                                    config.filter.count = 80;
+                                    loadSearch();
+                                "
+                                :class="{ 'un-button-active': config.filter.count == 80 }"
+                            >
+                                80
+                            </button>
+                        </li>
+                        <li>
+                            <button
+                                class="uk-button un-button"
+                                @click.prevent="
+                                    config.filter.count = 160;
+                                    loadSearch();
+                                "
+                                :class="{ 'un-button-active': config.filter.count == 160 }"
+                            >
+                                160
+                            </button>
+                        </li>
+                        <li>
+                            <button
+                                class="uk-button un-button"
+                                @click.prevent="
+                                    config.filter.count = 320;
+                                    loadSearch();
+                                "
+                                :class="{ 'un-button-active': config.filter.count == 320 }"
+                            >
+                                320
                             </button>
                         </li>
                     </ul>
