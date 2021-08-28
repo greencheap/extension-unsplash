@@ -1,7 +1,7 @@
 {
     "name": "greencheap/unsplash",
     "type": "greencheap-extension",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "title": "Unsplash",
     "description": "It is a plugin that allows you to draw images from Unsplash site.",
     "license": "MIT",
@@ -16,6 +16,11 @@
         "image": "image.jpg",
         "scripts": "scripts.php",
         "icon": "icon.svg"
+    },
+    "appstore": {
+        "greencheap_version": "3",
+        "requirements":{},
+        "compatible":{}
     },
     "archive": {
         "exclude": [
